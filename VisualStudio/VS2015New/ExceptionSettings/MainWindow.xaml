@@ -1,0 +1,26 @@
+﻿<Window x:Class="ExceptionSettings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExceptionSettings"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="message" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"></TextBlock>
+        <Border BorderBrush="Black" BorderThickness="2">
+            <Canvas x:Name="dataCanvas" Grid.Row="0" Height="250">
+                <Polyline x:Name="lnPoints" Stroke="Black" StrokeThickness="4"></Polyline>
+            </Canvas>
+        </Border>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center">
+            <Button x:Name="drawPentagon" Click="drawHalfOctagon_Click" Height="50" Width="150" Margin="10,0,0,0">Draw Half Octagon</Button>
+        </StackPanel>
+    </Grid>
+</Window>
