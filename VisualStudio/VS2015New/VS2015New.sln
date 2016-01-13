@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAMLLiveVisualTree", "XAMLL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionSettings", "ExceptionSettings\ExceptionSettings.csproj", "{16661934-2DB3-4A9F-A77C-2089BD19D9E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeSharpSix", "SeeSharpSix\SeeSharpSix.csproj", "{7D4DE33C-0025-4A36-ADC2-BF0D6BBA1D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{16661934-2DB3-4A9F-A77C-2089BD19D9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16661934-2DB3-4A9F-A77C-2089BD19D9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16661934-2DB3-4A9F-A77C-2089BD19D9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4DE33C-0025-4A36-ADC2-BF0D6BBA1D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4DE33C-0025-4A36-ADC2-BF0D6BBA1D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4DE33C-0025-4A36-ADC2-BF0D6BBA1D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4DE33C-0025-4A36-ADC2-BF0D6BBA1D75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
