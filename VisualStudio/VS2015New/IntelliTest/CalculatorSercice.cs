@@ -1,7 +1,4 @@
-﻿// All right reseverd by Keith Burnell
-// http://blog.falafel.com/intellitest-day-28-visual-studio-2015/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntelliTest
 {
-    public class CalculatorService
+    public class CalculatorSercice
     {
         public double Add(double x, double y)
         {
@@ -39,13 +36,9 @@ namespace IntelliTest
                 {
                     result = 2;
                 }
-                else if (x > 1000)
-                {
-                    result = 3;
-                }
                 else
                 {
-                    result = 4;
+                    result = 3;
                 }
             }
             else
