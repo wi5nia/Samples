@@ -1,0 +1,18 @@
+﻿else if (x > 1000)
+{
+	result = 3;
+}
+else
+{
+	result = 4;
+}
+
+public double Add(double[] vals)
+{
+	double sum = 0;
+	for (var i = 0; i < vals.Length; i++)
+	{
+		sum += vals[i];
+	}
+	return sum;
+}
