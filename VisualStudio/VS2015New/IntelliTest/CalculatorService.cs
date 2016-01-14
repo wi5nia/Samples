@@ -52,27 +52,9 @@ namespace IntelliTest
             {
                 result = (x + y);
             }
-            //else if (x > 1000)
-            //{
-            //    result = 3;
-            //}
-            //else
-            //{
-            //    result = 4;
-            //}
 
             //Return value
             return result;
         }
-
-        //public double Add(double[] vals)
-        //{
-        //    double sum = 0;
-        //    for (var i = 0; i < vals.Length; i++)
-        //    {
-        //        sum += vals[i];
-        //    }
-        //    return sum;
-        //}
     }
 }
