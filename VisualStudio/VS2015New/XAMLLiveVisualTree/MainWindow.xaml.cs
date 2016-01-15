@@ -27,7 +27,7 @@ namespace XAMLLiveVisualTree
 
         private void someButton_Click(object sender, RoutedEventArgs e)
         {
-
+            //BUTTON CLICK EVENT HANDLER
         }
     }
 }
