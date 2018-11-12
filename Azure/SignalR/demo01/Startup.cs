@@ -15,14 +15,15 @@ namespace demo01
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSignalR().AddAzureSignalR();
+            services.AddSignalR();
+            // services.AddSignalR().AddAzureSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseFileServer();
-            app.UseAzureSignalR(routes =>
+            app.UseSignalR(routes =>
             {
                 routes.MapHub<Chat>("/chat");
             });
