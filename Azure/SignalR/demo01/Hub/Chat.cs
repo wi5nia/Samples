@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.SignalR;
 
 namespace demo01
 {
-    public class Chat : Hub
+public class Chat : Hub
     {
         public void BroadcastMessage(string name, string message)
         {
